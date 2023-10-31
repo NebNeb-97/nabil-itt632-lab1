@@ -68,6 +68,26 @@
         flex: 2;
         margin: 0 10px;
     }
+
+     /* Media Query for Tablets and Smaller Screens */
+     @media (max-width: 768px) {
+        table {
+            width: 90%; /* Reduce table width for smaller screens */
+        }
+    }
+
+    /* Media Query for Mobile Phones */
+    @media (max-width: 576px) {
+        h1 {
+            font-size: 20px; /* Further reduce the title font size for small screens */
+        }
+        table {
+            width: 100%; /* Make the table full width for small screens */
+        }
+        .image-table {
+            margin: 10px auto; /* Reduce the margin for image table on small screens */
+        }
+    }
 </style>
 </head>
 <body>
