@@ -72,7 +72,7 @@
      /* Media Query for Tablets and Smaller Screens */
      @media (max-width: 768px) {
         table {
-            width: 90%; 
+            width: 100%; 
         }
     }
 
@@ -80,6 +80,7 @@
     @media (max-width: 576px) {
         body{
             text-align: center;
+            width: 100%;
         }
         h1 {
             font-size: 20px; 
@@ -87,10 +88,10 @@
         table {
             display: block;
             width: 100%;
-            margin: 20px auto;
+            margin: 20px auto auto;
         }
         .image-table {
-            margin: auto; 
+            margin: 20px auto; 
         }
     }
 </style>
