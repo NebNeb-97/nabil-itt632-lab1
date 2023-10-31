@@ -72,20 +72,21 @@
      /* Media Query for Tablets and Smaller Screens */
      @media (max-width: 768px) {
         table {
-            width: 90%; /* Reduce table width for smaller screens */
+            width: 90%; 
         }
     }
 
     /* Media Query for Mobile Phones */
     @media (max-width: 576px) {
         h1 {
-            font-size: 20px; /* Further reduce the title font size for small screens */
+            font-size: 20px; 
         }
         table {
-            width: 100%; /* Make the table full width for small screens */
+            width: 100%; 
+            margin: 0 auto;
         }
         .image-table {
-            margin: 10px auto; /* Reduce the margin for image table on small screens */
+            margin: 10px auto; 
         }
     }
 </style>
