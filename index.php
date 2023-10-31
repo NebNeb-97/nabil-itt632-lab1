@@ -78,15 +78,19 @@
 
     /* Media Query for Mobile Phones */
     @media (max-width: 576px) {
+        body{
+            text-align: center;
+        }
         h1 {
             font-size: 20px; 
         }
         table {
-            width: 100%; 
-            margin: 0 auto;
+            display: block;
+            width: 100%;
+            margin: 20px auto;
         }
         .image-table {
-            margin: 10px auto; 
+            margin: auto; 
         }
     }
 </style>
